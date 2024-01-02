@@ -1,0 +1,7 @@
+path: .\Animals_dataset            # 数据所在⽬录
+train: D:\YOLO\yolov7\Animals_dataset\images\train    # 训练集图⽚所在位置（相对于path）
+val:  D:\YOLO\yolov7\Animals_dataset\images\val # 验证集图⽚所在位置（相对于path）
+test: # 测试集图⽚所在位置（相对于path）（可选）
+# 类别
+nc: 14 # 类别数量
+names: ['bison', 'cat', 'cow', 'dog', 'donkey', 'duck', 'goat', 'goose', 'horse', 'mouse', 'ox', 'pig', 'sheep', 'turkey']

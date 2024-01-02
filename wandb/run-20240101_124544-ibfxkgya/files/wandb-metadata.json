@@ -1,0 +1,59 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-01-01T04:45:48.588433",
+    "startedAt": "2024-01-01T04:45:44.008586",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--weights",
+        "yolov7.pt",
+        "--cfg",
+        "./cfg/training/yolov7.yaml",
+        "--data",
+        "data/mycoco.yaml",
+        "--batch-size",
+        "20",
+        "--epochs",
+        "120",
+        "--workers",
+        "4",
+        "--name",
+        "yolov7",
+        "--project",
+        "yolo_v7_test"
+    ],
+    "state": "running",
+    "program": "D:\\YOLO\\yolov7\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/WongKinYiu/yolov7.git",
+        "commit": "a207844b1ce82d204ab36d87d496728d3d2348e7"
+    },
+    "email": null,
+    "root": "D:/YOLO/yolov7",
+    "host": "sun",
+    "username": "32658",
+    "executable": "C:\\Users\\32658\\anaconda3\\envs\\yolo\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3110.0,
+        "min": 0.0,
+        "max": 3110.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3110.0,
+            "min": 0.0,
+            "max": 3110.0
+        }
+    ],
+    "disk": {
+        "total": 27.124019622802734,
+        "used": 8.193836212158203
+    },
+    "memory": {
+        "total": 15.698657989501953
+    }
+}

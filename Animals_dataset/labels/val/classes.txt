@@ -1,0 +1,14 @@
+bison
+cat
+cow
+dog
+donkey
+duck
+goat
+goose
+horse
+mouse
+ox
+pig
+sheep
+turkey

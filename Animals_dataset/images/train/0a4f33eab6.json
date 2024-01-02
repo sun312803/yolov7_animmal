@@ -1,0 +1,27 @@
+{
+  "version": "1.1.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "sheep",
+      "text": "",
+      "points": [
+        [
+          33.0,
+          18.0
+        ],
+        [
+          225.0,
+          199.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": null
+    }
+  ],
+  "imagePath": "0a4f33eab6.jpg",
+  "imageData": null,
+  "imageHeight": 205,
+  "imageWidth": 246
+}

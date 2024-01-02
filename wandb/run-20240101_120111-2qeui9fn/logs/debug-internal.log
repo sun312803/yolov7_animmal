@@ -1,0 +1,174 @@
+2024-01-01 12:01:11,590 INFO    StreamThr :16984 [internal.py:wandb_internal():88] W&B internal server running at pid: 16984, started at: 2024-01-01 12:01:11.589080
+2024-01-01 12:01:11,599 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: status
+2024-01-01 12:01:11,602 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: status
+2024-01-01 12:01:11,605 DEBUG   SenderThread:16984 [sender.py:send():303] send: header
+2024-01-01 12:01:11,605 INFO    WriterThread:16984 [datastore.py:open_for_write():75] open: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\run-2qeui9fn.wandb
+2024-01-01 12:01:11,656 DEBUG   SenderThread:16984 [sender.py:send():303] send: run
+2024-01-01 12:01:11,667 INFO    SenderThread:16984 [sender.py:_maybe_setup_resume():593] checking resume status for None/yolo_v7_test/2qeui9fn
+2024-01-01 12:01:14,381 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: check_version
+2024-01-01 12:01:14,386 INFO    SenderThread:16984 [dir_watcher.py:__init__():216] watching files in: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files
+2024-01-01 12:01:14,386 INFO    SenderThread:16984 [sender.py:_start_run_threads():928] run started: 2qeui9fn with start time 1704081671.587084
+2024-01-01 12:01:14,386 DEBUG   SenderThread:16984 [sender.py:send():303] send: summary
+2024-01-01 12:01:14,387 INFO    SenderThread:16984 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-01-01 12:01:14,387 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: check_version
+2024-01-01 12:01:15,397 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_created():275] file/dir created: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\wandb-summary.json
+2024-01-01 12:01:17,750 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: run_start
+2024-01-01 12:01:17,761 DEBUG   HandlerThread:16984 [system_info.py:__init__():31] System info init
+2024-01-01 12:01:17,761 DEBUG   HandlerThread:16984 [system_info.py:__init__():46] System info init done
+2024-01-01 12:01:17,761 INFO    HandlerThread:16984 [system_monitor.py:start():150] Starting system monitor
+2024-01-01 12:01:17,762 INFO    SystemMonitor:16984 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-01-01 12:01:17,762 INFO    HandlerThread:16984 [system_monitor.py:probe():168] Collecting system info
+2024-01-01 12:01:17,766 INFO    SystemMonitor:16984 [interfaces.py:start():168] Started cpu
+2024-01-01 12:01:17,770 DEBUG   HandlerThread:16984 [system_info.py:probe():195] Probing system
+2024-01-01 12:01:17,771 INFO    SystemMonitor:16984 [interfaces.py:start():168] Started disk
+2024-01-01 12:01:17,781 INFO    SystemMonitor:16984 [interfaces.py:start():168] Started memory
+2024-01-01 12:01:17,784 DEBUG   HandlerThread:16984 [system_info.py:_probe_git():180] Probing git
+2024-01-01 12:01:17,794 INFO    SystemMonitor:16984 [interfaces.py:start():168] Started network
+2024-01-01 12:01:17,866 DEBUG   HandlerThread:16984 [system_info.py:_probe_git():188] Probing git done
+2024-01-01 12:01:17,867 DEBUG   HandlerThread:16984 [system_info.py:probe():241] Probing system done
+2024-01-01 12:01:17,867 DEBUG   HandlerThread:16984 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.18', 'heartbeatAt': '2024-01-01T04:01:17.770567', 'startedAt': '2024-01-01T04:01:11.565866', 'docker': None, 'cuda': None, 'args': ('--weights', 'yolov7.pt', '--cfg', './cfg/training/yolov7.yaml', '--data', 'data/mycoco.yaml', '--batch-size', '20', '--epochs', '120', '--workers', '4', '--name', 'yolov7', '--project', 'yolo_v7_test'), 'state': 'running', 'program': 'D:\\YOLO\\yolov7\\train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/WongKinYiu/yolov7.git', 'commit': 'a207844b1ce82d204ab36d87d496728d3d2348e7'}, 'email': None, 'root': 'D:/YOLO/yolov7', 'host': 'sun', 'username': '32658', 'executable': 'C:\\Users\\32658\\anaconda3\\envs\\yolo\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3110.0, 'min': 0.0, 'max': 3110.0}, 'cpu_freq_per_core': [{'current': 3110.0, 'min': 0.0, 'max': 3110.0}], 'disk': {'total': 27.124019622802734, 'used': 8.198902130126953}, 'memory': {'total': 15.698657989501953}}
+2024-01-01 12:01:17,867 INFO    HandlerThread:16984 [system_monitor.py:probe():178] Finished collecting system info
+2024-01-01 12:01:17,867 INFO    HandlerThread:16984 [system_monitor.py:probe():181] Publishing system info
+2024-01-01 12:01:17,867 DEBUG   HandlerThread:16984 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-01-01 12:01:17,868 DEBUG   HandlerThread:16984 [system_info.py:_save_pip():67] Saving pip packages done
+2024-01-01 12:01:17,868 DEBUG   HandlerThread:16984 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-01-01 12:01:18,421 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_created():275] file/dir created: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\conda-environment.yaml
+2024-01-01 12:01:18,421 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_created():275] file/dir created: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\requirements.txt
+2024-01-01 12:01:22,258 DEBUG   HandlerThread:16984 [system_info.py:_save_conda():86] Saving conda packages done
+2024-01-01 12:01:22,259 INFO    HandlerThread:16984 [system_monitor.py:probe():183] Finished publishing system info
+2024-01-01 12:01:22,339 DEBUG   SenderThread:16984 [sender.py:send():303] send: files
+2024-01-01 12:01:22,340 INFO    SenderThread:16984 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2024-01-01 12:01:22,346 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: stop_status
+2024-01-01 12:01:22,346 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: stop_status
+2024-01-01 12:01:22,452 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\conda-environment.yaml
+2024-01-01 12:01:22,453 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_created():275] file/dir created: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\wandb-metadata.json
+2024-01-01 12:01:23,440 DEBUG   SenderThread:16984 [sender.py:send():303] send: telemetry
+2024-01-01 12:01:23,441 DEBUG   SenderThread:16984 [sender.py:send():303] send: telemetry
+2024-01-01 12:01:23,441 DEBUG   SenderThread:16984 [sender.py:send():303] send: config
+2024-01-01 12:01:23,441 DEBUG   SenderThread:16984 [sender.py:send():303] send: config
+2024-01-01 12:01:23,448 DEBUG   SenderThread:16984 [sender.py:send():303] send: exit
+2024-01-01 12:01:23,448 INFO    SenderThread:16984 [sender.py:send_exit():442] handling exit code: 1
+2024-01-01 12:01:23,449 INFO    SenderThread:16984 [sender.py:send_exit():444] handling runtime: 5
+2024-01-01 12:01:23,450 INFO    SenderThread:16984 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-01-01 12:01:23,450 INFO    SenderThread:16984 [sender.py:send_exit():450] send defer
+2024-01-01 12:01:23,451 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:23,451 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 0
+2024-01-01 12:01:23,451 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:23,451 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 0
+2024-01-01 12:01:23,452 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 1
+2024-01-01 12:01:23,452 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:23,452 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 1
+2024-01-01 12:01:23,452 INFO    HandlerThread:16984 [system_monitor.py:finish():160] Stopping system monitor
+2024-01-01 12:01:23,452 DEBUG   SystemMonitor:16984 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-01-01 12:01:23,453 INFO    HandlerThread:16984 [interfaces.py:finish():173] Joined cpu
+2024-01-01 12:01:23,453 DEBUG   SystemMonitor:16984 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-01-01 12:01:23,453 INFO    HandlerThread:16984 [interfaces.py:finish():173] Joined disk
+2024-01-01 12:01:23,453 DEBUG   SystemMonitor:16984 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-01-01 12:01:23,453 INFO    HandlerThread:16984 [interfaces.py:finish():173] Joined memory
+2024-01-01 12:01:23,453 INFO    HandlerThread:16984 [interfaces.py:finish():173] Joined network
+2024-01-01 12:01:23,455 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:23,455 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 1
+2024-01-01 12:01:23,455 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 2
+2024-01-01 12:01:23,455 DEBUG   SenderThread:16984 [sender.py:send():303] send: stats
+2024-01-01 12:01:23,456 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:23,457 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 2
+2024-01-01 12:01:23,457 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:23,457 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 2
+2024-01-01 12:01:23,458 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 3
+2024-01-01 12:01:23,458 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:23,459 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 3
+2024-01-01 12:01:23,459 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:23,459 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 3
+2024-01-01 12:01:23,459 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 4
+2024-01-01 12:01:23,460 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\wandb-summary.json
+2024-01-01 12:01:23,460 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:23,460 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 4
+2024-01-01 12:01:23,460 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_created():275] file/dir created: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\output.log
+2024-01-01 12:01:23,460 DEBUG   SenderThread:16984 [sender.py:send():303] send: summary
+2024-01-01 12:01:23,461 INFO    SenderThread:16984 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-01-01 12:01:23,461 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:23,461 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 4
+2024-01-01 12:01:23,461 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 5
+2024-01-01 12:01:23,462 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:23,462 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 5
+2024-01-01 12:01:23,462 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:23,462 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 5
+2024-01-01 12:01:24,337 INFO    Thread-22 :16984 [upload_job.py:push():143] Uploaded file C:\Users\32658\AppData\Local\Temp\tmpve4epiw1wandb\kco9y6yc-wandb-metadata.json
+2024-01-01 12:01:24,410 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 6
+2024-01-01 12:01:24,410 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:24,410 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 6
+2024-01-01 12:01:24,411 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:24,411 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 6
+2024-01-01 12:01:24,473 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: poll_exit
+2024-01-01 12:01:24,473 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\config.yaml
+2024-01-01 12:01:24,473 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\wandb-summary.json
+2024-01-01 12:01:25,478 INFO    Thread-17 :16984 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\output.log
+2024-01-01 12:01:27,483 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 7
+2024-01-01 12:01:27,483 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: poll_exit
+2024-01-01 12:01:27,483 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:27,484 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 7
+2024-01-01 12:01:27,484 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:27,484 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 7
+2024-01-01 12:01:27,484 INFO    SenderThread:16984 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-01-01 12:01:27,499 INFO    SenderThread:16984 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\output.log
+2024-01-01 12:01:27,499 INFO    SenderThread:16984 [dir_watcher.py:finish():392] scan: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files
+2024-01-01 12:01:27,500 INFO    SenderThread:16984 [dir_watcher.py:finish():406] scan save: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\conda-environment.yaml conda-environment.yaml
+2024-01-01 12:01:27,500 INFO    SenderThread:16984 [dir_watcher.py:finish():406] scan save: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\config.yaml config.yaml
+2024-01-01 12:01:27,500 INFO    SenderThread:16984 [dir_watcher.py:finish():406] scan save: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\output.log output.log
+2024-01-01 12:01:27,505 INFO    SenderThread:16984 [dir_watcher.py:finish():406] scan save: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\requirements.txt requirements.txt
+2024-01-01 12:01:27,506 INFO    SenderThread:16984 [dir_watcher.py:finish():406] scan save: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\wandb-metadata.json wandb-metadata.json
+2024-01-01 12:01:27,506 INFO    SenderThread:16984 [dir_watcher.py:finish():406] scan save: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\wandb-summary.json wandb-summary.json
+2024-01-01 12:01:27,509 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 8
+2024-01-01 12:01:27,511 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:27,511 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 8
+2024-01-01 12:01:27,513 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:27,514 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 8
+2024-01-01 12:01:27,514 INFO    SenderThread:16984 [file_pusher.py:finish():168] shutting down file pusher
+2024-01-01 12:01:29,270 ERROR   Thread-26 :16984 [internal_api.py:upload_file():1926] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/sun-yun/yolo_v7_test/2qeui9fn/requirements.txt?Expires=1704168087&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fqoqC2hg6dc9Y4cfwL8TCKM2zykwhTQaQYPrmnz1bvGVcVyx7ASuZxc%2B23rIj8hlqHAZWp6LbKe8vFACIWZdN%2FbVHSJiKpSO7U2ScER3FsoknrhZAn49IqhLOZ5PZ9RCNSvAFQwQBzNqaeXv5IkxjKwRi%2B2N2AT1r3Nbie5IkA1ktBZLg9reWC2betFklul20hZHokOcI%2BH%2FX68TNlZor9ZpZ5UIIYCnAXVD6ilPUDXj2k2x6wSfIcb%2FznxAFUZopg%2B1mb8kIlFh1kG%2FleVz0%2FM%2Fc1BbYMQZ94l2B%2BLNySf42eO1IT3bgf0eCq1DcHROxBtGGOousdajLrrXlGVq7g%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-01-01 12:01:29,276 ERROR   Thread-26 :16984 [internal_api.py:upload_file():1928] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '2251'}
+2024-01-01 12:01:29,276 ERROR   Thread-26 :16984 [internal_api.py:upload_file():1930] upload_file response body: 
+2024-01-01 12:01:29,504 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: keepalive
+2024-01-01 12:01:29,652 INFO    Thread-27 :16984 [upload_job.py:push():143] Uploaded file D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\wandb-summary.json
+2024-01-01 12:01:29,745 INFO    Thread-24 :16984 [upload_job.py:push():143] Uploaded file D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\config.yaml
+2024-01-01 12:01:29,771 INFO    Thread-25 :16984 [upload_job.py:push():143] Uploaded file D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\output.log
+2024-01-01 12:01:29,884 INFO    Thread-23 :16984 [upload_job.py:push():143] Uploaded file D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\conda-environment.yaml
+2024-01-01 12:01:31,043 INFO    Thread-26 :16984 [upload_job.py:push():143] Uploaded file D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\files\requirements.txt
+2024-01-01 12:01:31,248 INFO    Thread-16 :16984 [sender.py:transition_state():463] send defer: 9
+2024-01-01 12:01:31,248 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:31,248 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 9
+2024-01-01 12:01:31,248 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:31,248 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 9
+2024-01-01 12:01:31,248 INFO    SenderThread:16984 [file_pusher.py:join():173] waiting for file pusher
+2024-01-01 12:01:31,248 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 10
+2024-01-01 12:01:31,249 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:31,249 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 10
+2024-01-01 12:01:31,249 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:31,249 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 10
+2024-01-01 12:01:31,505 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 11
+2024-01-01 12:01:31,506 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:31,506 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 11
+2024-01-01 12:01:31,506 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:31,506 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 11
+2024-01-01 12:01:31,507 INFO    SenderThread:16984 [sender.py:transition_state():463] send defer: 12
+2024-01-01 12:01:31,507 DEBUG   SenderThread:16984 [sender.py:send():303] send: final
+2024-01-01 12:01:31,507 DEBUG   SenderThread:16984 [sender.py:send():303] send: footer
+2024-01-01 12:01:31,508 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: defer
+2024-01-01 12:01:31,508 INFO    HandlerThread:16984 [handler.py:handle_request_defer():162] handle defer: 12
+2024-01-01 12:01:31,508 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: defer
+2024-01-01 12:01:31,508 INFO    SenderThread:16984 [sender.py:send_request_defer():459] handle sender defer: 12
+2024-01-01 12:01:31,510 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: poll_exit
+2024-01-01 12:01:31,510 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: server_info
+2024-01-01 12:01:31,510 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: get_summary
+2024-01-01 12:01:31,510 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: poll_exit
+2024-01-01 12:01:31,510 DEBUG   SenderThread:16984 [sender.py:send_request():317] send_request: server_info
+2024-01-01 12:01:31,512 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: sampled_history
+2024-01-01 12:01:33,178 INFO    MainThread:16984 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2024-01-01 12:01:33,178 INFO    MainThread:16984 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2024-01-01 12:01:33,178 INFO    MainThread:16984 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2024-01-01 12:01:33,179 DEBUG   HandlerThread:16984 [handler.py:handle_request():139] handle_request: shutdown
+2024-01-01 12:01:33,179 INFO    HandlerThread:16984 [handler.py:finish():814] shutting down handler
+2024-01-01 12:01:33,515 INFO    WriterThread:16984 [datastore.py:close():279] close: D:\YOLO\yolov7\wandb\run-20240101_120111-2qeui9fn\run-2qeui9fn.wandb
+2024-01-01 12:01:34,178 INFO    SenderThread:16984 [sender.py:finish():1331] shutting down sender
+2024-01-01 12:01:34,178 INFO    SenderThread:16984 [file_pusher.py:finish():168] shutting down file pusher
+2024-01-01 12:01:34,178 INFO    SenderThread:16984 [file_pusher.py:join():173] waiting for file pusher
+2024-01-01 12:01:34,258 INFO    MainThread:16984 [internal.py:handle_exit():78] Internal process exited
